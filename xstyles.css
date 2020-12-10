@@ -1,0 +1,109 @@
+body {
+    font-family: Helvetica;
+    margin-top: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-image: url(parchment.jpg);
+    background-color: white;
+    color: black;
+}
+header {
+    text-align: right;
+    margin-right: 0px;
+
+}
+h1 {
+    font-size: 22px;
+}
+h6{
+    font-size: 15px;
+    
+}
+p {
+    font-size: 15px;
+    padding-top: 5px;
+}
+img {
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+.container {
+    border-radius: 10px;
+}
+.centered {
+    text-align: center;
+    align-content: center;
+}
+.left {
+    float: left;
+}
+.full-width {
+    width: 100%;
+    margin: 0px;
+}
+.border {
+    border: 1px solid black !important;
+    border-radius: 5px;
+}
+.img_right {
+    float: right;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.img_center {
+    float: left;
+    margin-right: 0px;
+}
+nav {
+    float: left;
+    background: rgb(235, 235, 233);
+    min-height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+nav ul {
+    list-style-type: none !important; 
+    padding: 0;
+    margin: 0;
+    float: left;
+    height: 100%;
+    text-overflow: clip;
+    font-size: 15px;
+    overflow: scroll;
+  }
+  li a:link {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  li a:visited {
+    color: black;
+  }
+  li a.active {
+    background-color: limegreen;
+    color: white;
+  }
+  li a:hover:not(.active) {
+    background-color: lightgrey;
+    color: black;
+  }
+  .form_border {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+  }
+  .responsive {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.div_bg {
+    background-color: rgb(245, 245, 245, 0.6);
+}
+.footer {
+    margin-top: 20px;
+}
